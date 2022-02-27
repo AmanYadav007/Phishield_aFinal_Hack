@@ -1,0 +1,26 @@
+{
+  "name": "Phishield",
+  "description": "This Extension will keep you safe from phishing Websites Help You to detect this website will Hack Your Data or Not",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/phishield.png",
+      "32": "/images/phishield.png",
+      "48": "/images/phishield.png",
+      "128": "/images/phishield.png"
+    }
+  },
+  "icons": {
+    "16": "/images/phishield.png",
+    "32": "/images/phishield.png",
+    "48": "/images/phishield.png",
+    "128": "/images/phishield.png"
+  },
+  "options_page": "options.html"
+}
